@@ -1,7 +1,8 @@
+import unittest
 from selenium import webdriver
 
 
-class TicketsAtWorkSignIn():
+class TicketsAtWorkSignIn(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
