@@ -1,8 +1,7 @@
-import unittest
 from selenium import webdriver
 
 
-class TicketsAtWorkSignIn(unittest.TestCase):
+class TicketsAtWorkSignIn():
 
     def setUp(self):
         self.driver = webdriver.Chrome()
@@ -20,7 +19,7 @@ class TicketsAtWorkSignIn(unittest.TestCase):
 
     def taw_click_page(self):
         driver = self.driver
-        click_product = driver.find_element_by_link_text("Walt Disney World®")
+        click_product = driver.find_element_by_link_text('Walt Disney World®')
         click_product.click()
 
     def click_wdw_link(self):
