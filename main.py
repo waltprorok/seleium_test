@@ -1,10 +1,11 @@
-import unittest
+import time
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 
 
-class TicketsAtWorkSignIn(unittest.TestCase):
+class TicketsAtWork(object):
 
-    def setUp(self):
+    def set_up(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
 
@@ -18,10 +19,14 @@ class TicketsAtWorkSignIn(unittest.TestCase):
         sumbit_btn = driver.find_element_by_name("submit")
         sumbit_btn.click()
 
-    def taw_click_page(self):
+    def click_wdw_page(self):
         driver = self.driver
-        click_product = driver.find_element_by_link_text('Walt Disney World®')
-        click_product.click()
+        url = "/tickets/waltdisneyworld"
+        click_link = driver.find_element_by_xpath('//a[@href="' + url + '"]')
+        try:
+            click_link.click()
+        except NoSuchElementException:
+            time.sleep(2)
 
     def click_wdw_link(self):
         driver = self.driver
@@ -40,10 +45,10 @@ class TicketsAtWorkSignIn(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    Test = TicketsAtWorkSignIn()
-    Test.setUp()
+    Test = TicketsAtWork()
+    Test.set_up()
     Test.taw_sign_in()
-    Test.taw_click_page()
+    Test.click_wdw_page()
     Test.click_wdw_link()
     Test.taw_log_out()
     Test.tear_down()
