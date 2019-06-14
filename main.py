@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 class TicketsAtWork(object):
 
-    def set_up(self):
+    def __init__(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
 
@@ -46,7 +46,6 @@ class TicketsAtWork(object):
 
 if __name__ == "__main__":
     Test = TicketsAtWork()
-    Test.set_up()
     Test.taw_sign_in()
     Test.click_wdw_page()
     Test.click_wdw_link()
