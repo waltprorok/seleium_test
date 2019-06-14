@@ -6,7 +6,7 @@
 <ul>
 <li>Open site</li>
 <li>Login</li>
-<li>Click Link</li>
+<li>Click Links</li>
 <li>Click Read More</li>
 <li>Log Out</li>
 </ul>
