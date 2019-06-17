@@ -31,8 +31,7 @@ class TicketsAtWork(object):
     def click_wdw_link(self):
         driver = self.driver
         url = "/tickets/waltdisneyworld/seasonal"
-        click_link = driver.find_element_by_xpath(
-            '//a[@href="' + url + '"]')
+        click_link = driver.find_element_by_xpath('//a[@href="' + url + '"]')
         click_link.click()
 
     def taw_log_out(self):
