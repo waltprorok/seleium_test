@@ -7,7 +7,6 @@ links = soup.find_all('a')
 count = 0
 taw_links = []
 
-
 for link in links:
     taw_links.append(link.get('href'))
     # count += 1
