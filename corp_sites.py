@@ -2,11 +2,10 @@ import webbrowser
 
 urls = [
     "https://www.ticketsatwork.local/tickets/index.php",
-    "https://memberdeals.local/aaa/?login=tripleaaa",
     "https://www.plumbenefits.local/",
-    "https://sams.samsclub.com/",
     "https://www.workingadvantage.local/",
-    "https://test.ticketmonster.com/"
+    "https://memberdeals.local/nycgov/index.php",
+    "https://sams.samsclub.com/",
 ]
 
 
