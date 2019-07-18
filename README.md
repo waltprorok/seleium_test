@@ -51,3 +51,9 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 #### Ready to go!
 
 The above steps will now allow Python, Selenium to use the WebDriver in your application.
+
+#### IDE - PyCharm Community
+
+<p>PyCharm Community is a Free and Powerful IDE from JetBrains.</p>
+
+https://www.jetbrains.com/pycharm/download/#section=windows
