@@ -22,15 +22,15 @@ https://selenium-python.readthedocs.io/index.html
 <li>Log Out</li>
 </ul>
 
-#### How to install selenium for python?
-
-<p>pip install selenium</p>
-
-<h4>How to install Python on Windows?</h4>
+#### How to install Python on Windows?
 
 https://www.python.org/downloads/
 
 <p>Click through the installation process</p>
+
+#### How to install selenium for python?
+
+<p>pip install selenium</p>
 
 #### Download WebDriver for Chrome
 
