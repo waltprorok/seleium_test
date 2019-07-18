@@ -6,7 +6,7 @@
 
 ### What is Selenium?
 
-<p>Allows the user to write simple tests to automate and interact with website(s).</p>
+<p>Selenuim allows the user to write simple tests to automate and interact with website(s).</p>
 
 https://selenium-python.readthedocs.io/index.html
 
@@ -26,7 +26,7 @@ https://selenium-python.readthedocs.io/index.html
 
 https://www.python.org/downloads/
 
-<p>Click through the installation process</p>
+<p>Click through the installation process.</p>
 
 #### How to install selenium for python?
 
