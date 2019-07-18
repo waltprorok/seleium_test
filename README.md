@@ -38,11 +38,11 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 
 1. Copy the ***webdriver.exe*** file into:
-2. ***C:\Users\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver.exe***
+2. ***C:\Users\\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver.exe***
 3. On Windows open ***Control Panel*** | ***System*** | ***Advanced system settings***
 4. Click ***Advanced*** Tab | Click ***Envirnoment Variables***
 5. Click ***New***
-6. Add ***C:\Users\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver***
+6. Add ***C:\Users\\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver***
 7. Click ***OK***
 
 
