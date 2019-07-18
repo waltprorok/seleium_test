@@ -6,31 +6,29 @@
 
 ### What is Selenium?
 
-<p>Selenuim allows the user to write simple tests to automate and interact with website(s).</p>
+Selenium allows the user to write simple tests to automate and interact with website(s).
 
 https://selenium-python.readthedocs.io/index.html
 
 ### What does this project do?
 
-<p>Tests a forward facing GUI Website.</p>
+Tests a forward facing GUI Website.
 
-<ul>
-<li>Open site</li>
-<li>Login with user credentials</li>
-<li>Click Links</li>
-<li>Click Read More</li>
-<li>Log Out</li>
-</ul>
+- Open site
+- Login with user credentials
+- Click Links
+- Click Read More
+- Log Out
 
 #### How to install Python on Windows?
 
 https://www.python.org/downloads/
 
-<p>Click through the installation process.</p>
+Click through the installation process.
 
 #### How to install selenium for python?
 
-<p>pip install selenium</p>
+pip install selenium
 
 #### Download WebDriver for Chrome
 
@@ -38,15 +36,15 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 #### Install WebDriver for use on Windows
 
-<ol>
-<li>Copy the <b>webdriver.exe</b> file into:</li>
-<li><i>C:\Users\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver.exe</i></li>
-<li>On Windows open <b>Control Panel</b> | <b>System</b> | <b>Advanced system settings</b></li>
-<li>Click <b>Advanced</b> Tab | Click <b>Envirnoment Variables</b></li>
-<li>Click <b>New</b></li>
-<li>Add <b>C:\Users\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver</b></li>
-<li>Click <b>OK</b></li>
-</ol>
+
+1. Copy the ***webdriver.exe*** file into:
+2. ***C:\Users\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver.exe***
+3. On Windows open ***Control Panel*** | ***System*** | ***Advanced system settings***
+4. Click ***Advanced*** Tab | Click ***Envirnoment Variables***
+5. Click ***New***
+6. Add ***C:\Users\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver***
+7. Click ***OK***
+
 
 #### Ready to go!
 
@@ -54,6 +52,6 @@ The above steps will now allow Python, Selenium to use the WebDriver in your app
 
 #### IDE - PyCharm Community
 
-<p>PyCharm Community is a Free and Powerful IDE from JetBrains.</p>
+PyCharm Community is a Free and Powerful IDE from JetBrains.
 
 https://www.jetbrains.com/pycharm/download/#section=windows
