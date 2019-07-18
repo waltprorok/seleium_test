@@ -40,15 +40,14 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 <ol>
 <li>Copy the <b>webdriver.exe</b> file into:</li>
-<li><i>C:\Users\[user name here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver</i></li>
+<li><i>C:\Users\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver.exe</i></li>
 <li>On Windows open <b>Control Panel</b> | <b>System</b> | <b>Advanced system settings</b></li>
 <li>Click <b>Advanced</b> Tab | Click <b>Envirnoment Variables</b></li>
 <li>Click <b>New</b></li>
-<li>Add <b>C:\Users\[user name here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver</b></li>
+<li>Add <b>C:\Users\[username here]\AppData\Local\Programs\Python\Python37-32\Scripts\chromedriver</b></li>
 <li>Click <b>OK</b></li>
 </ol>
 
-
-<h4>Ready to go!</h4>
+#### Ready to go!
 
 The above steps will now allow Python, Selenium to use the WebDriver in your application.
