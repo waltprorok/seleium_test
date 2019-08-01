@@ -3,21 +3,24 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
 
-class TicketsAtWork(object):
+class MTA(object):
 
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
 
-    def taw_sign_in(self):
+    def mta_sign_in(self):
         driver = self.driver
-        driver.get("https://ticketsatwork.com")
-        email_inp = driver.find_element_by_name("login_email")
-        email_inp.send_keys("wprorok@entertainmentbenefits.com")
-        pw_inp = driver.find_element_by_name("login_password")
-        pw_inp.send_keys("Admin213!")
-        sumbit_btn = driver.find_element_by_name("submit")
-        sumbit_btn.click()
+        driver.get("http://127.0.0.1:8000")
+        url = "/login"
+        click_link = driver.find_element_by_xpath('//a[@href="' + url + '"]')
+        click_link.click()
+        email_inp = driver.find_element_by_name("email")
+        email_inp.send_keys("waltprorok@gmail.com")
+        pw_inp = driver.find_element_by_name("password")
+        pw_inp.send_keys("123456")
+        submit_btn = driver.find_element_by_type("submit")
+        submit_btn.click()
 
     def click_wdw_page(self):
         driver = self.driver
@@ -44,9 +47,9 @@ class TicketsAtWork(object):
 
 
 if __name__ == "__main__":
-    Test = TicketsAtWork()
-    Test.taw_sign_in()
-    Test.click_wdw_page()
-    Test.click_wdw_link()
-    Test.taw_log_out()
-    Test.tear_down()
+    Test = MTA()
+    Test.mta_sign_in()
+    # Test.click_wdw_page()
+    # Test.click_wdw_link()
+    # Test.taw_log_out()
+    # Test.tear_down()
