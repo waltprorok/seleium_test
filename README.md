@@ -2,7 +2,7 @@
 ## Python 3
 ### PyPi: Selenium
 ##### Author: Walter Prorok
-##### Email: wprorok@entertainmentbenefits.com
+##### Email: waltprorok@gmail.com
 
 ### What is Selenium?
 
